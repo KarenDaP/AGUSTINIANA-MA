@@ -1,0 +1,505 @@
+*{
+  font-family: 'Gruppo', cursive;
+  font-size: 20px;
+  color: #fff;
+}
+/* header */
+#header {
+  height: 100px;
+}
+.header_nav-menu{
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+}
+.header_nav_ul-menu{
+  display: flex;
+  background: #808080;
+}
+.header_nav_ul-menu img {
+  height: 50px;
+  width: auto;
+  margin: 0px 40px;
+}
+.header_nav_ul-menu h2 {
+  text-align: center;
+  color: #fff;
+  margin: auto 20% auto 0;
+  font-size: 25px;
+}
+.header_nav_ul-menu li{
+  list-style-type: none;
+  margin: 10px 40px;
+}
+.header_nav_ul-menu li a{
+  text-decoration: none;
+  color: #fff;
+}
+.header_img-fondo {
+  object-fit: cover;
+  height: 300px;
+  width: 100vw;
+}
+
+/* main */
+#main {
+
+}
+
+/* section_inicio */
+.main_section-inicio{
+  display: flex;
+  padding: 150px 30px 30px 90px;
+}
+.section_div-base-inicio{
+  background: #808080;
+  width: 4%;
+  height: 180px;
+}
+.section_article-inicio {
+  background: #06eba0;
+  height: 200px;
+  width: 79%;
+  margin-left: 3.5%;
+  position: absolute;
+  padding: 10px 40px;
+}
+.section_article-inicio h2:first-child{
+  font-size: 60px;
+  letter-spacing: 10px;
+  display: inline-block;
+}
+.section_article-inicio h2:nth-child(2){
+  font-size: 60px;
+  color: #808080;
+  letter-spacing: 10px;
+  display: inline-block;
+}
+.section_article-inicio h3 {
+  font-size: 30px;
+}
+.section_article-inicio li {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.section_article-inicio a{
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.section_div-foto-inicio{
+  background: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0px 0px 0px auto;
+  clip-path: circle(50% at 50% 50%);
+}
+.section_div-foto-inicio div{
+  background: #8f8f8f;
+  width: 210px;
+  height: 212px;
+  margin: 18px;
+  clip-path: circle(50% at 50% 50%);
+}
+.section_div-foto-inicio div img{
+  clip-path: circle(50% at 48% 48%);
+}
+
+/* section_perfil-educacion */
+/* section_perfil */
+.main_section-perfil{
+  height: auto;
+  padding: 10px 100px;
+  display: flex;
+}
+.section_article-perfil{
+  width: 50%;
+  background: #858383;
+  height: auto;
+  -webkit-clip-path: inset(0px round 200px 0px 0px 200px);
+  padding: 30px 0px;
+}
+.article_div_titulo-perfil{
+  display: flex;
+  margin-top: 10px;
+}
+.div_titulo-base-perfil {
+  background: #a9a9a9;
+  width: 11%;
+  height: 45px;
+  margin: 2px 0px;
+}
+.div_titulo-icono-perfil{
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 1;
+  margin: 0px 5px;
+}
+.div_titulo-icono-perfil i {
+  color:  #a9a9a9;
+  padding: 3px 3px;
+  font-size: 40px;
+}
+.div_titulo-texto-perfil{
+  height: 45px;
+  width: 20%;
+  background: #06eba0;
+  -webkit-clip-path: inset(0px round 0px 50px 50px 0px);
+  position: absolute;
+  margin: 2px 4%;
+  padding-left: 10px;
+}
+.div_titulo-texto-perfil h2 {
+  padding: 8px 65px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.section_article-perfil p {
+  display: block;
+  background: #0000ff00;
+  margin: 25px 30px 30px 90px;
+  text-align: justify;
+}
+.main_section-perfil img{
+  width: 40%;
+  height: auto;
+  -webkit-clip-path: inset(0px round 200px);
+  margin: 40px 70px;
+  object-fit: fill;
+}
+/* section_educacion */
+.main_section-educacion{
+  height: auto;
+  padding: 50px 100px;
+  display: flex;
+}
+.section_article-educacion{
+  width: 50%;
+  background: #a9a9a9;
+  height: 320px;
+  -webkit-clip-path:inset(0px round 0px 200px 200px 0px);
+  padding: 30px 0px;
+  margin-top: 40px;
+}
+.article_div_titulo-educacion{
+  display: flex;
+}
+.div_titulo-base-educacion {
+  background: #858585;
+  width: 3%;
+  height: 45px;
+  margin: 2px 0px;
+}
+.div_titulo-icono-educacion{
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 1;
+  margin: 0px 5px;
+}
+.div_titulo-icono-educacion i {
+  color: #fff;
+  padding: 8px 8px;
+  font-size: 25px;
+  clip-path: circle(50% at 50% 50%);
+  background: gray;
+  margin: 3px 0px 0px 3px;
+}
+.div_titulo-texto-educacion{
+  height: 45px;
+  width: 20%;
+  background: #06eba0;
+  -webkit-clip-path:inset(0px round 0px 50px 50px 0px);
+  position: absolute;
+  margin: 2px 16px;
+}
+.div_titulo-texto-educacion h2 {
+  padding: 8px 65px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.section_article-educacion ul {
+  display: block;
+  background: #0000ff00;
+  margin: 30px;
+  list-style-type: disclosure-closed;
+  line-height: 40px;
+  padding: 0px 40px 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.section_article-educacion ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.main_section-educacion img{
+  width: 40%;
+  height: auto;
+  -webkit-clip-path: inset(0px round 200px);
+  margin: 40px 80px;
+  object-fit: fill;
+}
+/* section_experiencia*/
+.main_section-experiencia {
+  width: 50%;
+  background: #eee;
+  height: auto;
+  padding: 30px 0px;
+  margin: auto;
+  -webkit-clip-path: inset(0px round 100px 100px 100px 100px);
+}
+.section_div_titulo-experiencia {
+  display: flex;
+  position: relative;
+}
+.div_titulo-icono-experiencia {
+  background: #808080;
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 1;
+  margin-left: 195px;
+  position: absolute;
+}
+.div_titulo-icono-experiencia i {
+  color: #808080;
+  padding: 8px 8px;
+  font-size: 25px;
+  clip-path: circle(50% at 50% 50%);
+  background: #fff;
+  margin: 3px 0px 0px 3px;
+}
+.section_titulo-texto-experiencia {
+  width: 45%;
+  background: #06eba0;
+  -webkit-clip-path: inset(0px round 50px 50px 50px 50px);
+  position: relative;
+  margin: auto;
+}
+.section_titulo-texto-experiencia h2 {
+  color: #fff;
+  padding: 8px 65px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.article_div_subtitulo-experiencia {
+  height: 75px;
+  width: 35%;
+  background: #ddd;
+  -webkit-clip-path:inset(0px round 50px 50px 50px 50px);
+  position: relative;
+  margin: 20px auto;
+}
+.article_div_subtitulo-experiencia h2:first-child {
+  color: #000;
+  padding: 8px 10px 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.article_div_subtitulo-experiencia h2:nth-child(2) {
+  color: #000;
+  padding: 0px 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.section_article-experiencia p {
+  display: block;
+  background: #0000ff00;
+  margin: 0px 30px 10px;
+  padding: 0 60px;
+  font-size: 20px;
+  text-align: justify;
+  color: #000;
+}
+/* section_experiencia*/
+.main_section-idioma {
+  background: #fff;
+  height: auto;
+  padding: 20px 90px;
+  margin-top: 20px;
+}
+.section_div_titulo-idioma {
+  display: flex;
+  padding: 0 38%;
+}
+.div_titulo-icono-idioma {
+  background: #808080;
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 1;
+  margin-left: 20px;
+}
+.div_titulo-icono-idioma i {
+  color: #808080;
+  padding: 9px 6px;
+  font-size: 23px;
+  clip-path: circle(50% at 50% 50%);
+  background: #fff;
+  margin: 3px 0px 0px 3px;
+}
+.section_titulo-texto-idioma {
+  width: 20%;
+  background: #06eba0;
+  -webkit-clip-path: inset(0px round 50px 50px 50px 50px);
+  position: absolute;
+}
+.section_titulo-texto-idioma h2 {
+  color: #fff;
+  padding: 8px 65px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: right;
+}
+.main_section-idioma hr{
+  margin: 20px;
+  background: #808080;
+}
+.padding-articles-idioma{
+  margin: 0 40px;
+  padding: 0 50px;
+}
+.section_article_frances-idioma {
+  background-image: url(https://media.istockphoto.com/photos/flag-of-france-picture-id172301500?k=20&m=172301500&s=612x612&w=0&h=4RQWgaixj-gal1cb2YDlU66lb1wmwv75TYcGK0SLLjI=);
+  background-position: center;
+  width: 60%;
+  height: auto;
+  padding: 10px 20px;
+}
+.section_article_frances-idioma h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+}
+.section_article_frances-idioma h4 {
+  color: #000;
+}
+.div_frances_idioma-nivel{
+  height: auto;
+  background: #0000ff26;
+  padding: 0px 30px;
+  display: flex;
+  width: 100%;
+}
+.div_frances_idioma-nivel h2{
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 20px;
+  padding: 15px;
+  color: #000;
+}
+.div_frances_idioma-nivel h2:nth-child(1){
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 20px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background: #06eba0;
+  padding: 15px;
+}
+.section_article_ingles-idioma {
+  background-image: url(https://www.cls-idiomas.com/wp-content/uploads/2018/03/Palabras-diferentes-ingl%C3%A9s-americano-y-brit%C3%A1nico.jpg);
+  background-position: center;
+  width: 60%;
+  height: auto;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+.section_article_ingles-idioma h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+}
+.section_article_ingles-idioma h4 {
+  color: #000;
+}
+.div_ingles_idioma-nivel{
+  height: auto;
+  background: #0000ff26;
+  padding: 0px 30px;
+  display: flex;
+  width: 100%;
+}
+.div_ingles_idioma-nivel h2{
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 20px;
+  padding: 15px;
+  color: #000;
+}
+.div_ingles_idioma-nivel h2:nth-child(4){
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 20px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background: #06eba0;
+  padding: 15px;
+}
+.section_article_español-idioma {
+  background-image: url(https://www.salminter.com/blog/wp-content/uploads/2019/12/11.jpg);
+  background-position: center;
+  width: 60%;
+  height: auto;
+  padding: 10px 20px;
+  margin: 10px 0px 5px auto;
+}
+.section_article_español-idioma h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+}
+.section_article_español-idioma h4 {
+  color: #000;
+}
+.div_español_idioma-nivel{
+  height: auto;
+  background: #06eba0;
+  padding: 0px 30px;
+  display: flex;
+  width: 100%;
+}
+.div_español_idioma-nivel h2{
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 20px;
+  padding: 15px;
+  color: #000;
+}
+/*footer*/
+#footer {
+  display: flex;
+  background: #808080;
+  margin-top: 40px;
+}
+.footer_p-copyright {
+  width: 40%;
+  padding: 10px 40px;
+}
+.footer_ul-redes{
+  display: flex;
+  width: 60%;
+  padding: 10px 40px;
+}
+.footer_ul-redes li{
+  flex-grow: 1;
+  margin: auto;
+  list-style-type: none;
+}
+.fa-facebook {
+  color: #0000ff;
+}
+.fa-instagram {
+  color: #bf046c;
+}
+.fa-whatsapp {
+  color: #54e154;
+}
+.footer_ul-redes li a{
+  margin: 10px;
+  text-decoration: none;
+}

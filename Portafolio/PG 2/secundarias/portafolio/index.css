@@ -1,0 +1,644 @@
+*{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  overflow: inherit;
+}
+/* header */
+#header{
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 30px 10px 20px;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 200;
+}
+.header_div-logo{
+  margin-left: 10px;
+}
+.header_div_hr-logo{
+  border-left: 2px solid #ffffff;
+  height: 50px;
+  position: absolute ;
+  margin-top: 13px;
+}
+.header_div_h1-logo{
+  font-family: 'Pinyon Script', cursive;
+  color: #ffffff;
+  margin: 10px 30px 15px 20px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.header_nav_ul-menu{
+  display: flex;
+}
+.header-responsive {
+    display: none;
+}
+.nav_ul_li-menu{
+  padding: 10px;
+  margin-left: 20px;
+  list-style: none;
+}
+.nav_ul_li-menu:hover{
+  background-color: rgba(97, 97, 97, 0.732);
+}
+.nav_ul_li_a-menu{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+.nav_ul_li_a_hr-menu{
+  margin: auto;
+  width: 130px;
+}
+.nav_ul_li_a_h3-menu{
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  margin: 10px;
+  text-align: center;
+}
+
+/* main */
+#main {
+
+}
+.main_section-menuportafolio {
+  padding-top: 90px;
+  height: 250px;
+}
+.main_section_nav-menuportafolio{
+  width: 100vw;
+  z-index: 100;
+}
+.main_section_nav_ul-menuportafolio{
+  display: flex;
+  background: #808080;
+}
+.main_section_nav_h2-menuportafolio {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  background: #222;
+  padding: 10px 0;
+}
+.main_section_nav_ul-menuportafolio li{
+  list-style-type: none;
+  margin: 10px 40px;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 20px;
+}
+.main_section_nav_ul-menuportafolio li a{
+  text-decoration: none;
+  color: #fff;
+}
+.main_section_img-fondo-menuportafolio {
+  object-fit: cover;
+  height: 300px;
+  width: 100vw;
+}
+
+/* section_inicio */
+.main_section-inicio{
+  display: flex;
+  padding: 150px 30px 30px 90px;
+}
+.section_div-base-inicio{
+  background: #808080;
+  width: 4%;
+  height: 180px;
+}
+.section_article-inicio {
+  background: #222222;
+  height: 200px;
+  width: 79%;
+  margin-left: 3.5%;
+  position: absolute;
+  padding: 10px 40px;
+}
+.section_article-inicio h2:first-child{
+  font-size: 60px;
+  letter-spacing: 10px;
+  display: inline-block;
+}
+.section_article-inicio h2:nth-child(2){
+  font-size: 60px;
+  color: #808080;
+  letter-spacing: 10px;
+  display: inline-block;
+}
+.section_article-inicio h3 {
+  font-size: 30px;
+}
+.section_article-inicio li {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.section_article-inicio a{
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.section_div-foto-inicio{
+  background: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0px 0px 0px auto;
+  clip-path: circle(50% at 50% 50%);
+}
+.section_div-foto-inicio div{
+  background: #8f8f8f;
+  width: 210px;
+  height: 212px;
+  margin: 18px;
+  clip-path: circle(50% at 50% 50%);
+}
+.section_div-foto-inicio div img{
+  clip-path: circle(50% at 48% 48%);
+}
+
+/* section_perfil-educacion */
+/* section_perfil */
+.main_section-perfil{
+  height: auto;
+  padding: 10px 100px;
+  display: flex;
+}
+.section_article-perfil{
+  width: 50%;
+  background: #303030;
+  height: auto;
+  -webkit-clip-path: inset(0px round 200px 0px 0px 200px);
+  padding: 30px 0px;
+}
+.article_div_titulo-perfil{
+  display: flex;
+  margin-top: 10px;
+}
+.div_titulo-base-perfil {
+  background: #a9a9a9;
+  width: 11%;
+  height: 45px;
+  margin: 2px 0px;
+}
+.div_titulo-icono-perfil{
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 1;
+  margin: 0px 5px;
+}
+.div_titulo-icono-perfil i {
+  color:  #a9a9a9;
+  padding: 3px 3px;
+  font-size: 40px;
+}
+.div_titulo-texto-perfil{
+  height: 45px;
+  width: 20%;
+  background: #222222;
+  -webkit-clip-path: inset(0px round 0px 50px 50px 0px);
+  position: absolute;
+  margin: 2px 4%;
+  padding-left: 10px;
+}
+.div_titulo-texto-perfil h2 {
+  padding: 8px 65px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.section_article-perfil p {
+  display: block;
+  background: #0000ff00;
+  margin: 25px 30px 30px 90px;
+  text-align: justify;
+  font-size: 25px;
+}
+.main_section-perfil img{
+  width: 40%;
+  height: auto;
+  -webkit-clip-path: inset(0px round 200px);
+  margin: 40px 70px;
+  object-fit: fill;
+}
+/* section_educacion */
+.main_section-educacion{
+  height: auto;
+  padding: 50px 100px;
+  display: flex;
+}
+.section_article-educacion{
+  width: 50%;
+  background: #222222;
+  height: 320px;
+  -webkit-clip-path:inset(0px round 0px 200px 200px 0px);
+  padding: 30px 0px;
+  margin-top: 40px;
+}
+.article_div_titulo-educacion{
+  display: flex;
+}
+.div_titulo-base-educacion {
+  background: #858585;
+  width: 3%;
+  height: 45px;
+  margin: 2px 0px;
+}
+.div_titulo-icono-educacion{
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 1;
+  margin: 0px 5px;
+}
+.div_titulo-icono-educacion i {
+  color: #fff;
+  padding: 8px 8px;
+  font-size: 25px;
+  clip-path: circle(50% at 50% 50%);
+  background: gray;
+  margin: 3px 0px 0px 3px;
+}
+.div_titulo-texto-educacion{
+  height: 45px;
+  width: 20%;
+  background: #303030;
+  -webkit-clip-path:inset(0px round 0px 50px 50px 0px);
+  position: absolute;
+  margin: 2px 16px;
+}
+.div_titulo-texto-educacion h2 {
+  padding: 8px 65px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.section_article-educacion ul {
+  display: block;
+  background: #0000ff00;
+  margin: 30px;
+  list-style-type: disclosure-closed;
+  line-height: 40px;
+  padding: 0px 40px 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.section_article-educacion ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.main_section-educacion img{
+  width: 40%;
+  height: auto;
+  -webkit-clip-path: inset(0px round 200px);
+  margin: 40px 80px;
+  object-fit: fill;
+}
+/* section_experiencia*/
+.main_section-experiencia {
+  width: 50%;
+  background: #959595;
+  height: auto;
+  padding: 30px 0px;
+  margin: 0 auto 40px;
+  -webkit-clip-path: inset(0px round 100px 100px 100px 100px);
+}
+.section_div_titulo-experiencia {
+  display: flex;
+  position: relative;
+}
+.div_titulo-icono-experiencia {
+  background: #cac9c9;
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 1;
+  margin-left: 195px;
+  position: absolute;
+}
+.div_titulo-icono-experiencia i {
+  color: #808080;
+  padding: 8px 8px;
+  font-size: 25px;
+  clip-path: circle(50% at 50% 50%);
+  background: #fff;
+  margin: 3px 0px 0px 3px;
+}
+.section_titulo-texto-experiencia {
+  width: 45%;
+  background: #222222;
+  -webkit-clip-path: inset(0px round 50px 50px 50px 50px);
+  position: relative;
+  margin: auto;
+}
+.section_titulo-texto-experiencia h2 {
+  color: #fff;
+  padding: 8px 65px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.article_div_subtitulo-experiencia {
+  height: 75px;
+  width: 35%;
+  background: #ddd;
+  -webkit-clip-path:inset(0px round 50px 50px 50px 50px);
+  position: relative;
+  margin: 20px auto;
+}
+.article_div_subtitulo-experiencia h2:first-child {
+  color: #000;
+  padding: 8px 10px 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.article_div_subtitulo-experiencia h2:nth-child(2) {
+  color: #000;
+  padding: 0px 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.section_article-experiencia p {
+  display: block;
+  background: #0000ff00;
+  margin: 0px 30px 10px;
+  padding: 0 60px;
+  font-size: 20px;
+  text-align: justify;
+  color: #000;
+}
+/*footer*/
+.footer{
+    display: flex;
+    font-size: 30px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px 30px;
+}
+.footer i {
+  font-size: 30px;
+}
+.footer_h6{
+    margin-left: 10px;
+    flex-grow: 1;
+    margin-top: 4px;
+}
+.footer_div-redes a{
+    margin-right: 25px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 505px){
+  .main_section_nav_ul-menuportafolio li a{
+    font-size: 15px;
+  }
+  .section_article-inicio{
+    padding: 10px 10px 20px;
+    height: auto;
+  }
+  .section_div-base-inicio{
+    width: 6%;
+    height: 150px;
+  }
+  .section_article-inicio h2:first-child {
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  .section_article-inicio h2:nth-child(2) {
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  .section_article-inicio h3 {
+    font-size: 25px;
+  }
+  .main_section-perfil{
+    padding: 10px 50px;
+  }
+  .section_article-perfil p{
+    margin: 25px;
+    font-size: 20px;
+  }
+  .div_titulo-icono-educacion{
+    display: none;
+  }
+  .main_section-educacion{
+    padding: 50px;
+  }
+  .section_article-educacion {
+    height: auto;
+  }
+  .section_article-educacion ul{
+    padding: 20px 50px;
+    margin: 0;
+  }
+  .div_titulo-base-educacion {
+    width: 10% !important;
+  }
+  .div_titulo-texto-educacion {
+    margin-left: 20px !important;
+  }
+  .div_titulo-texto-educacion h2{
+    padding: 8px 20px;
+  }
+  .main_section-experiencia{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 800px){
+  #header{
+    height: 90px;
+  }
+  .header_div_h1-logo {
+    font-size: 25px;
+  }
+  .header_div_hr-logo{
+    height: 50px;
+  }
+  .header_nav_ul-menu{
+    display: none;
+  }
+  .header-responsive {
+    display: block;
+  }
+  .header-responsive {
+    display: block;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+  .header-responsive-menu i {
+      font-size: 30px;
+  }
+
+  .header-responsive-menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .header-responsive-menu ul li {
+      background-color: #1d1d1b;
+  }
+
+  .header-responsive-menu ul a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 15px;
+      padding: 10px;
+      font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+  .header-responsive-menu ul li {
+      position: relative;
+      float: left;
+      margin: 0;
+      padding: 0;
+  }
+
+  .header-responsive-menu ul li:hover {
+      background: #1d1d1b;
+  }
+
+  .header-responsive-menu ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: #eee;
+      padding: 0;
+  }
+
+  .header-responsive-menu ul ul li {
+      float: none;
+      width: 200px
+  }
+
+  .header-responsive-menu ul ul a {
+      line-height: 120%;
+      padding: 10px 15px;
+  }
+
+  .header-responsive-menu ul li:hover>ul {
+      display: block;
+  }
+  .main_section-slider{
+    padding-top: 90px;
+  }
+  .main_section-slider li img{
+    height: 100%;
+    object-fit: contain;
+  }
+  .main_section-sobremi{
+    display: block;
+    margin: 20px 5% 90px;
+  }
+  .section_img-sobremi{
+    width: 100%;
+  }
+  .section_article-sobremi{
+    padding: 0;
+  }
+  .section_article_button-sobremi{
+    margin: 0;
+  }
+  .footer_div-redes a{
+    margin: 0;
+  }
+  .main_section-menuportafolio{
+    padding: 90px 0;
+  }
+  .section_div-foto-inicio{
+    display: none;
+  }
+  .main_section_nav_ul-menuportafolio li{
+    margin: 10px 0;
+  }
+  .div_titulo-icono-experiencia{
+    display: none;
+  }
+  .article_div_subtitulo-experiencia{
+    width: 55%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1100px){
+  .header_div_hr-logo{
+    height: 65px;
+  }
+  .header_div_h1-logo{
+    font-size: 30px;
+  }
+  .nav_ul_li-menu{
+    margin: 0;
+  }
+  .nav_ul_li_a-menu{
+    font-size: 15px;
+  }
+  .main_section_menu-galeria{
+    padding: 150px 20% 20px;
+  }
+  .nav_ul_li_a_hr-menu {
+    width: 80px;
+  }
+  .main_section-inicio{
+    padding: 150px 30px 30px 40px;
+  }
+  .main_section-perfil{
+    display: block;
+  }
+  .section_article-perfil{
+    width: 100%;
+    -webkit-clip-path: inset(0px round 100px);
+  }
+  .div_titulo-base-perfil{
+    width: 5%;
+  }
+  .div_titulo-texto-perfil{
+    width: auto;
+
+  }
+  .main_section-perfil img{
+    width: 100%;
+    margin: 20px auto 0;
+    -webkit-clip-path: inset(0px round 900px);
+  }
+  .main_section-educacion img{
+    display: none;
+  }
+  .section_article-educacion{
+    width: 100%;
+    -webkit-clip-path: inset(0px round 100px);
+    margin-top: 0;
+  }
+  .div_titulo-base-educacion{
+    width: 4%;
+    z-index: 50;
+  }
+  .div_titulo-texto-educacion{
+    width: auto;
+    margin: 2px 28px;
+  }
+  .main_section-educacion{
+    padding-top: 10px;
+  }
+  .div_titulo-icono-experiencia{
+    margin-left: 20%;
+  }
+  .section_titulo-texto-experiencia{
+    width: 100%;
+    text-align: center;
+  }
+  .section_article-experiencia p{
+    padding: 0;
+  }
+}

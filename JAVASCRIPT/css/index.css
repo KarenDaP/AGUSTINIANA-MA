@@ -1,0 +1,18 @@
+*{
+  background: #eee;
+}
+#header {
+  display: flex;
+}
+.header_nav_ul {
+  display: flex;
+}
+.header_nav_ul_li{
+  list-style: none;
+  padding: 10px;
+  background: #1bd529;
+  margin: 10px;
+}
+.header_div{
+  justify-content: space-between;
+}

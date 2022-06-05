@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #1d1d1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.header-presentation{
+    margin-left: 10px;
+}
+.header-vertical{
+    border-left: 2px solid #ffffff;
+    height:120px;
+    position: absolute ;
+    margin-left: 0px;
+    margin-top: 13px;
+
+}
+.header-title{
+    font-family: 'Pinyon Script', cursive;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.header-horizontal{
+    margin: 0;
+    width: 240px;
+}
+.header-textos{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+button{
+    text-decoration: none;
+    background-color: #b0e0e600;
+    transition: background-color .5s;
+    border: 0px solid rgba(255, 0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgba(97, 97, 97, 0.732);
+}
+
+.header-contacto{
+    margin-right: 30px;
+}
+.slider{
+  width: 100%;
+  margin: auto;
+  height: 1000px;
+  overflow: hidden;
+}
+.slider ul{
+  padding: 0;
+  display: flex;
+  width: 400%;
+  animation: slider 15s infinite alternate;
+  animation-timing-function: linear;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider li img{
+  width: 100%;
+}
+.about_me{
+    margin-top: 50px;
+    display: flex;
+}
+.about_me-texto{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.about_me-texto-boton{
+    background-color: #1d1d1b ;
+    color: #ffffff;
+    margin-left: 500px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.about_me h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.about_me img{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+.about_me-texto-parrafo
+{
+    text-align: justify;
+}
+.footer{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+    background-color: #1d1d1b;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 50px;
+}
+.footer-copyright{
+    display: flex;
+    align-items: center;
+
+}
+.footer-copyright h6{
+    margin-left: 10px;
+}
+.footer-socialnetworks{
+    margin-right: 10px;
+}
+.footer-socialnetworks i{
+    margin: 10px;
+}
+@keyframes slider{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}

@@ -1,0 +1,253 @@
+*{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Gruppo', cursive;
+}
+.div_container{
+  background: red;
+}
+.div_container-header{
+  background: #085073;
+  height: 251px;
+  display: flex;
+}
+.div_header-foto{
+  background: #085073;
+  width: 20%;
+  height: 250px;
+}
+.div_header-foto img{
+  object-fit: cover;
+  height: 250px;
+  /* padding: 20px; */
+  width: 100%;
+}
+.div_header-titulo{
+  height: 250px;
+  width: 79.9%;
+}
+.div_header-titulo h2:first-child{
+  padding: 30px 0px 0px 30px;
+  font-size: 40px;
+}
+.div_header-titulo h2{
+  font-size: 30px;
+  padding: 0px 0px 0px 30px;
+}
+.div_header-titulo ul{
+  font-size: 30px;
+  padding: 0px 0px 0px 30px;
+}
+.div_container-infopersonal{
+  background: #fff;
+  height: auto;
+  display: flex;
+  padding: 20px;
+}
+.div_infopersonal-perfil{
+  width: 60%;
+  background: #e0e0e0;
+  padding: 40px;
+  font-size: 25px;
+  margin: 5px;
+}
+.div_infopersonal-habilidades{
+  width: 40%;
+  background: #ffc21d;
+  padding: 40px;
+  font-size: 25px;
+  margin: 5px;
+}
+.div_infopersonal-habilidades ul{
+  padding: 10px 31px;
+}
+.div_container-experiencia{
+  background: #eee;
+  height: auto;
+  padding: 20px;
+}
+.div_experiencia-titulo{
+  width: auto;
+  height: 85px;
+}
+.div_experiencia-titulo h2{
+  padding: 20px 30px;
+  font-size: 40px;
+}
+.div_container-experiencia hr{
+  background: #000;
+  width: 90%;
+  height: 5px;
+  margin: 20px 20px 30px 20px;
+}
+.div_subcontainer-experiencia{
+  /* min-height: 300px; */
+  height: auto;
+  display: flex;
+  font-size: 25px;
+}
+.div_experiencia-academica{
+  background: #959595;
+  width: 35%;
+  padding: 10px 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: auto;
+}
+.div_experiencia-academica h2{
+  margin-top: 10px;
+  text-align: center;
+}
+.div_experiencia-academica ul{
+  list-style-type: disclosure-closed;
+  line-height: 50px;
+  padding: 20px 30px;
+}
+.div_experiencia-laboral{
+  background: #bbbbbb;
+  width: 60%;
+  padding: 10px 50px;
+}
+
+.div_container-idioma{
+  background: #fff;
+  height: auto;
+  padding: 20px;
+}
+.div_idioma-titulo{
+  width: auto;
+  height: 85px;
+}
+.div_idioma-titulo h2{
+  padding: 20px 30px;
+  font-size: 40px;
+}
+.div_container-idioma hr{
+  background: #000;
+  width: 90%;
+  height: 5px;
+  margin: 20px 20px 30px 20px;
+}
+.div_subcontainer-idioma{
+  background: #fff;
+  /* min-height: 300px; */
+  height: auto;
+  font-size: 20px;
+  padding: 0px 150px;
+}
+.div_subcontainer-idioma h2{
+  text-align: center;
+}
+.div_subcontainer-idioma hr{
+  width: 35%;
+  text-align: center;
+  padding: 0px 10px;
+  height: 4px;
+  margin: 35px 5px 5px 20px;
+  background: #000;
+  position: absolute;
+}
+.div_idioma-español{
+  background: #ffffe4;
+  width: 60%;
+  height: 180px;
+  padding: 10px 20px;
+  margin: 0px 0px 10px 0px;
+}
+.div_idioma-ingles{
+  background: #ffeac6;
+  width: 60%;
+  height: 180px;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+.div_idioma-frances{
+  background: #ffcdcd;
+  width: 60%;
+  height: 180px;
+  padding: 10px 20px;
+  margin: 10px 0px 5px auto;
+}
+@keyframes desplaza{
+  from {
+    background: yellow;
+  }
+  to{
+    background: orange;
+  }
+}
+.start{
+  width: 40px;
+  height: 40px;
+  clip-path:polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background: yellow;
+  margin: 15px 5px 5px 5px;
+  animation-name: desplaza;
+  animation-duration: 3s;
+}
+.div_idioma-nivel{
+  height: 40px;
+  background: #0000ff26;
+  padding: 0px 30px;
+  display: flex;
+}
+.div_idioma-nivel h2{
+  flex-grow: 1;
+}
+
+
+
+.div_container-adicional{
+  background: #e1e1e1;
+  height: 600px;
+  padding: 20px;
+}
+.div_adicional-titulo{
+  width: auto;
+  height: 85px;
+}
+.div_adicional-titulo h2{
+  padding: 20px 30px;
+  font-size: 40px;
+}
+.div_container-adicional hr{
+  background: #000;
+  width: 90%;
+  height: 5px;
+  margin: 20px 20px 30px 20px;
+}
+.div_subcontainer-adicional{
+  display: flex;
+  height: 600px;
+  margin: 60px 60px 0px 30px;
+}
+.div_adicional-html{
+  background: blue;
+  width: 200px;
+  height: 250px;
+  flex-grow: 1;
+  margin: 20px;
+}
+.div_adicional-css{
+  background: pink;
+  width: 200px;
+  height: 250px;
+  flex-grow: 1;
+  margin: 20px;
+}
+.div_adicional-javascript{
+  background: aqua;
+  width: 200px;
+  height: 250px;
+  flex-grow: 1;
+  margin: 20px;
+}
+.div_adicional-h2{
+  text-align: center;
+  font-size: 40px;
+  line-height: 249px;
+}
+.div_container-footer{
+  background: purple;
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,122 @@
+* {
+  font-size: 20px;
+  font-family: 'Gruppo', sans-serif;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  background: #b5b5b5;
+  align-items: center;
+}
+.header_logo {
+  width: 200px;
+  height: 100px;
+  margin-left: 10px;
+}
+.header_carro {
+  width: 30px;
+  height: 30px;
+  margin-right: 60px;
+}
+
+.section_img-oferta {
+  height: 400px;
+  width: 800px;
+  margin: 10px auto;
+  display: block;
+}
+
+.section_nav_menu{
+  background: #eeeeee;
+}
+.section_nav_menu ul{
+  display: flex;
+}
+.section_nav_menu ul li{
+  flex-grow: 1;
+  margin: 20px 30px;
+  padding: 10px;
+  background-color: #b7039b;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 20px;
+}
+.section_nav_menu ul li:hover{
+  background-color: #000;
+}
+.section_nav_menu ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.section_info h2{
+  text-align: center;
+  padding-top: 20px;
+  color: #7c7c7c;
+}
+
+.section_cursos {
+  padding: 40px 10% 40px 10%;
+  display: flex;
+  height: 600px;
+}
+.section_articles-cursos{
+  flex-grow: 1;
+}
+.section_articles-cursos:last-child{
+  flex-grow: 0;
+}
+.article_img-cursos{
+  position: absolute;
+  width: 250px;
+  height: 270px;
+  z-index: 50;
+  border: 1px solid #000;
+}
+.articles_div-cursos{
+  padding: 10px;
+  position: relative;
+  height: 250px;
+  width: 250px;
+  z-index: 1;
+}
+.articles_div-cursos p{
+  font-size: 18px;
+  text-align: justify;
+  background: #fff;
+}
+.article_img-cursos:hover{
+  opacity: 0.07;
+  transition: opacity 500ms;
+}
+
+#footer{
+  background: #ccc;
+  display: flex;
+}
+.footer_div {
+  padding: 10px 20px;
+}
+.footer_h2 {
+  margin: auto;
+}
+.footer_ul {
+  display: flex;
+  align-items: center;
+}
+.footer_ul li{
+  list-style-type: none;
+}
+.footer_ul li i{
+  font-size: 25px;
+  margin-right: 20px;
+}
+.fa-facebook-square {
+  color: #1e00ff;
+}
+.fa-instagram-square {
+  color: #e400a0;
+}
+.fa-twitter-square {
+  color: #00a6ff;
+}
